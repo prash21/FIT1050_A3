@@ -1,0 +1,261 @@
+<!-- PRASHANT MURALI    ID:29625564   FIT1050 ASS3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Global Virtual Vacations Webpage</title>
+<!-- From W3schools template -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<!-- Additional font reference -->
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+<!-- Link to own style sheet -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Top navigation bar -->
+<div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <!-- Use 4 column style to divide navigation options -->
+      <div class="w3-col s3">
+        <a href="#" class="w3-button w3-block w3-black">HOME</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#download" class="w3-button w3-block w3-black">DOWNLOAD</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#contact_us" class="w3-button w3-block w3-black">CONTACT US</a>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- Image carousel -->
+<div class="slideshow-container">
+
+<!-- First image -->
+<div class="mySlides fade">
+  <!-- Main image -->
+  <img src="images/img1.jpg" alt="New York City" style="width:100%">
+  <!-- Display logo -->
+  <div class="logo"><img src="images/logo.png" alt="GVV Logo" style="width:13%"></div>
+  <!-- Display company/service name -->
+  <div class="logotext">Global Virtual Vacations</div>
+  <!-- Display tagline beneath company/service name -->
+  <div class="logotagline">Holiday from the comfort of your own homes!</div>
+  <!-- DISCOVER button -->
+  <div class="button_cont">
+    <a style="text-decoration:none" class="aboutus_btn" href="#about">DISCOVER</a>
+  </div>
+</div>
+
+<!-- Second image -->
+<div class="mySlides fade">
+  <!-- Image -->
+  <img src="images/img2.jpg" alt="London's Big Ben" style="width:100%">
+  <!-- image caption -->
+   <div class="img_caption_1">Discover London Virtually!</div>
+</div>
+
+<!-- Third image -->
+<div class="mySlides fade">
+  <!-- Image -->
+  <img src="images/img3.jpg" alt="India's Taj Mahal" style="width:100%">
+  <!-- image caption -->
+  <div class="img_caption_2">India Awaits!</div>
+  </div>
+
+<!-- Fourth image -->
+<div class="mySlides fade">
+  <!-- Image -->
+  <img src="images/img4.jpg" alt="Thailand's Beach" style="width:100%">
+  <!-- image caption -->
+  <div class="img_caption_3">Get the best out of Thailand!</div>
+</div>
+
+<!-- Add left/right buttons for the image carousell -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+
+
+<!-- Add background to the page -->
+<div style="background-image: url('images/background.jpg')">
+
+  <!-- Add navigation dots under image -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+  </div>
+
+<!-- About us section -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="min-width: 70%; max-width:85%">
+        <!-- Add some spacing -->
+        <br>
+        <br>
+        <!-- Left align the heading -->
+        <h5 class="w3-left-align w3-padding-32">About Us</h5>
+        <!-- Float image to the right so that text goes on the left -->
+        <div><img src="images/img5.jpg" alt="3D castle on phone" style="float:right; max-width:48%; margin-left: 25px"/></div>
+        <!-- About us content -->
+        <div><p>If you haven't heard of us yet, Global Virtual Vacations is a virtual vacation software that lets you travel aruond the
+          world, all from the comfort of your own home!</p>
+        <p>Recent travel restrictions have got many people down, but fret not, because we've got you covered!
+          We use state-of-the art graphics to simulate a virtual environment, so it'll be like you're really there!</p>
+        <p>We have over 20 countries for you to choose from, with thousands of attractions in each country! All you've
+          got to do is choose the country and pick the attraction, and you'll get to see everything right before your eyes.
+          There's beaches and theme parks that you'll get to try out too!</p>
+        <p>Our software is now avaiable on both computers and smartphones, and they're equipped with VR capabilites. So what are
+          you waiting for? Download the Global Virtual Vacation software now!</p></div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- Add clickable arrow that moves page to next section -->
+  <a class="arrow_down" href="#download"><img src="images/arrow_down.png" alt="Arrow down"/></a>
+  <br>
+</div>
+
+
+<br>
+
+
+<!-- Download section -->
+<div class="w3-container" id="download">
+  <div class="w3-content" style="min-width: 70%; max-width:85%">
+    <!-- Add some space -->
+    <br>
+    <br>
+        <!-- Left align the heading -->
+        <h5 class="w3-left-align w3-padding-32">Software and Downloads</h5>
+        <!-- Download text content -->
+        <p>Our software comes with over 20+ country options, with only more to come from over the air
+          updates. What's more? The software is completely free to download, and it comes with a starter
+          pack of 5 countries! More countries can be accessed via in-app purchases. All versions of the
+          software comes with an autosave feature, and a VR mode! Check out the available downloads below to
+          find the right version for you!
+        </p>
+        <!-- Add image before the "downloads" table -->
+        <div class="center_horizontal"><img src="images/download_img.png" alt="Software on Phone & Computer" style="width:700px"/></div>
+        <!-- Add the "downloads" table -->
+        <table class="table">
+          <tr>
+            <!-- Column headings -->
+            <th>Platform</th>
+            <th>Version</th>
+            <th>Download</th>
+          </tr>
+          <tr>
+            <!-- Row content -->
+            <td>Microsoft Windows</td>
+            <td>V2.3.5</td>
+            <!-- Alert the user that download is starting when text is clicked -->
+            <td class=download_btn onclick="downloadAlert()">Download</td>
+          </tr>
+          <tr>
+            <!-- Row content -->
+            <td>Apple macOS</td>
+            <td>V2.3.5</td>
+            <!-- Alert the user that download is starting when text is clicked -->
+            <td class=download_btn onclick="downloadAlert()">Download</td>
+          </tr>
+          <tr>
+            <!-- Row content -->
+            <td>Apple iOS</td>
+            <td>V2.3.4</td>
+            <!-- Alert the user that download is starting when text is clicked -->
+            <td class=download_btn onclick="downloadAlert()">Download</td>
+          </tr>
+          <tr>
+            <!-- Row content -->
+            <td>Google Android OS</td>
+            <td>V2.3.4</td>
+            <!-- Alert the user that download is starting when text is clicked -->
+            <td class=download_btn onclick="downloadAlert()">Download</td>
+          </tr>
+        </table>
+
+  <!-- Add same arrow as previously, but directs the page to the next section -->
+  <a class="arrow_down" href="#contact_us"><img src="images/arrow_down.png" alt="Arrow down"/></a>    
+  </div>
+</div>
+
+<br>
+<br>
+
+<!-- Contact Us Container -->
+<div class="w3-container" id="contact_us" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <!-- Left align the header -->
+    <h5 class="w3-left-align w3-padding-48">Contact Us</h5>
+    <!-- Text content for the contact us section -->
+    <p>Have questions or feedback? Or want to discuss potential business collaborations? Leave your contact details below, or
+      email us directly and we'll get in touch with you as soon as we can!
+      We're always open to new suggestions and ideas so that we can improve and serve you better!</p>
+    <p><strong>Email us at GlobalVirtualVacations@coolmail.com</strong></p>
+    <p>or</p>
+    <p><strong>Leave your contact details below</strong></p>
+    <!-- Since no server-side scripting required, form details will be used on the client side only -->
+    <!-- Input form -->
+    <form id="form">
+      <!-- Input name -->
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" name="Name"></p>
+      <!-- Input phone number -->
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Phone number" name="Number"></p>
+      <!-- Input email -->
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" name="Email"></p>
+      <!-- Input message -->
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" name="Message"></p>
+    </form>
+    <!-- Submit button -->
+    <button class="w3-button w3-black" onclick="submitPrompt()">SEND MESSAGE</button>
+    
+    <!-- Final text at the bottom of the page -->
+    <p style="text-align:center">Copyright © Global Virtual Vacations</p>
+  </div>
+
+
+<!-- HTML for pop-up box after clicking the "Send Message button" -->
+<!-- This pop-up box in HTML is called the Modal -->
+
+<!-- The Modal -->
+<div id="Modal" class="modal">
+
+  <!-- Content inside -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <!-- Title -->
+      <h2>Thank you!</h2>
+    </div>
+    <div class="modal-body">
+      <!-- This is the input name taken from the form, and output back as the message -->
+      <!-- This can be seen in the JavaScript code -->
+      <p id="display"></p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Link this file to JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+<!-- END OF HTML CODE -->
